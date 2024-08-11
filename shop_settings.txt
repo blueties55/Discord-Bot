@@ -1,0 +1,53 @@
+#######################################################
+# Config for the Custom Bot Shop Commands             #
+#######################################################
+# Any line starting with # is ignored                 #
+# You MUST update this for the shop to work           #
+# FORMATTING IS VERY IMPORTANT FOLLOW IT CLOSELY      #
+# Open in Notepad++ for best results                  #
+#######################################################
+[DEFAULT]
+
+# Set this value to your shop command channel or bot command channel.
+# You must set this to use most of the bot commands, this helps keep general chat channels clean.
+# To copy the channel ID of a text channel enable Developer Mode in discords advanced settings first
+# Then simply right click any channel and Copy Channel ID will be an option. Paste that below.
+
+allowed_channel_id=Your_Shop_Channel_ID
+
+# These roles are all the roles users will be able to purchase with the shop command.
+# The reactions will need to be specified below as well as the exact name of the role
+# First is the emoji to react with, "name" is the title of the role in the message from the bot,
+# "shop_item" is the specific role the bot will give the users.
+# This will take coins from the user in the economy.db file created by the bot.
+# Below are all just examples. Please change these otherwise it will not work.
+
+shop_item_emoji_1=🎟️
+shop_item_name_1=Movie Ticket
+shop_item_price_1=2500
+shop_item_1=Movie Night 🎬
+
+shop_item_emoji_2=👶
+shop_item_name_2=Baby Mod
+shop_item_price_2=200000
+shop_item_2=Baby Moderator 👶👓
+
+shop_item_emoji_3=💎
+shop_item_name_3=VIP
+shop_item_price_3=50000
+shop_item_3=VIP 💎
+
+shop_item_emoji_4=🎧
+shop_item_name_4=DJ
+shop_item_price_4=5000
+shop_item_4=DJ 🎧
+
+shop_item_emoji_5=🔪
+shop_item_name_5=Destiny
+shop_item_price_5=2500
+shop_item_5=Destiny 🔪
+
+shop_item_emoji_6=🔨
+shop_item_name_6=Minecraft
+shop_item_price_6=2500
+shop_item_6=Minecraft 🔨

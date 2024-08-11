@@ -1,0 +1,58 @@
+#######################################################
+# Config for the Custom Bot                           #
+#######################################################
+# Any line starting with # is ignored                 #
+# You MUST set the token                              #
+# FORMATTING IS VERY IMPORTANT FOLLOW IT CLOSELY      #
+# Open in Notepad++ for best results                  #
+#######################################################
+[DEFAULT]
+
+# Please set the role in your discord server that is reserved for only owners of the server
+# It is recommended to create a role for only the owner if you only have an admin role and
+# you trust those users to be able to use certain commands you could use that role too, but that's not recommended.
+
+owner_role=Your_Role_Here
+
+# Set this value to your bot command text channel.
+# You must set this to use most of the bot commands, this helps keep general chat channels clean.
+# To copy the channel ID of a text channel enable Developer Mode in discords advanced settings first
+# Then simply right click any channel and Copy Channel ID will be an option. Paste that below.
+
+allowed_channel_id=Role_Selection_Channel_ID
+
+# This is the settings you will need to change for the role selection bot.
+# Everything here must match the names EXACTLY as they are in your discord server.
+# Set this as the roles you want all users to receive automatically.
+# These roles are only applied to users upon joining the discord server.
+
+new_user_roles=---USER ROLES---,Newborns 👶,---ADMIN ROLES---
+
+# These roles are all the roles users will be able to opt into by reacting to a message.
+# The reactions will need to be specified below as well as the exact name of the role
+# First is the emoji to react with, "name" is the title of the role in the message from the bot,
+# "role_name" is the specific role the bot will give the users.
+
+role_selection_1_emoji=🔪
+role_selection_1_name=Destiny 🔪
+role_selection_1_role_name=Destiny 🔪
+
+role_selection_2_emoji=🔨
+role_selection_2_name=Minecraft 🔨
+role_selection_2_role_name=Minecraft 🔨
+
+role_selection_3_emoji=📺
+role_selection_3_name=Streamer 📺
+role_selection_3_role_name=Streamer 📺
+
+role_selection_4_emoji=👶
+role_selection_4_name=Baby Moderator 👶👓
+role_selection_4_role_name=Baby Moderator 👶👓
+
+role_selection_5_emoji=👓
+role_selection_5_name=Administrator 👓
+role_selection_5_role_name=Administrator 👓
+
+role_selection_6_emoji=🎬
+role_selection_6_name=Movie Night 🎬
+role_selection_6_role_name=Movie Night 🎬

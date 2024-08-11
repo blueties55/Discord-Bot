@@ -1,0 +1,49 @@
+#######################################################
+# Config for the Custom Bot                           #
+#######################################################
+# Any line starting with # is ignored                 #
+# You MUST set the token                              #
+# FORMATTING IS VERY IMPORTANT FOLLOW IT CLOSELY      #
+# Open in Notepad++ for best results                  #
+#######################################################
+[DEFAULT]
+
+# All titles must stay the same. If you change any of them then the bot won't work.
+# Again formmating is VERY specific here. All values must follow the same syntax:
+# value_name=value
+# DO NOT change the value_name and make sure there are no spaces between the title and value.
+
+# This sets the token for the bot to log in with
+# This MUST be a bot token (user tokens will not work)
+# If you don't know how to get a bot token, please see discord's documentation
+# Here is a good guide: https://discordgsm.com/guide/how-to-get-a-discord-bot-token
+
+DISCORD_API_TOKEN=Your_Token_Here
+
+# This sets the command prefix for the bot. Please change this if you have a bot
+# that already uses this prefix for receiving commands.
+# Note: If a bot uses '!' for their commands and you set this to '!!' both bots will respond.
+# If you don't want mention as a command prefix option change mentions_as_prefix=False
+
+command_prefix=!
+mentions_as_prefix=True
+
+# This will set the message you would like users to receive
+# when they send a DM to the bot. This is a custom option and isn't required
+# If you would like nothing to happen when the bot receives a DM leave blank.
+# This is the same response used when users mention the bot in a message ie. @bot
+
+dm_response=Example Message
+
+# Please set the role in your discord server that is reserved for only owners of the server
+# It is recommended to create a role for only the owner if you only have an admin role and
+# you trust those users to be able to use certain commands you could use that role too, but that's not recommended.
+
+owner_role=Your_Role_Here
+
+# Set this value to your bot command text channel.
+# You must set this to use most of the bot commands, this helps keep general chat channels clean.
+# To copy the channel ID of a text channel enable Developer Mode in discords advanced settings first
+# Then simply right click any channel and Copy Channel ID will be an option. Paste that below.
+
+allowed_channel_id=Role_Selection_Channel_ID

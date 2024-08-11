@@ -1,0 +1,61 @@
+#######################################################
+# Config for the Custom Bot                           #
+#######################################################
+# Any line starting with # is ignored                 #
+# You MUST set the token                              #
+# FORMATTING IS VERY IMPORTANT FOLLOW IT CLOSELY      #
+# Open in Notepad++ for best results                  #
+#######################################################
+[DEFAULT]
+
+# This will set the message you would like users to receive
+# when they @ the bot in a text chat.
+# This is an optional feature and if you would like
+# nothing will happen if you leave this field blank.
+
+dm_response=Example Message
+
+#######################################################
+# Config for the Custom Bot AutoResponses             #
+#######################################################
+# Any line starting with # is ignored                 #
+# FORMATTING IS VERY IMPORTANT FOLLOW IT CLOSELY      #
+# keyword_* comes from user messages                  #
+# response_* is what the bot replies with in response #
+# You can add as many more key words you wish,        # 
+# however make sure you continue the counting i.e.    #
+# keyword_1 response_1, keyword_2 response_2 etc.     #
+#######################################################
+
+keyword_1=bing bong
+response_1=BING 🉑 BONG 🌡😝 if you 👈 see 👀🗣👁 these dogs 🐕 in your 👉 yard 🌳 just know 🤔❔ upstairs ⬆📶 i’m going 🏃 hard😈 bing 🉑 bong 💈.
+
+keyword_2=help
+response_2=Type !help to see a list of commands and what they do! 😃
+
+#######################################################
+# Config for the Custom Bot AutoResponses             #
+#######################################################
+# Any line starting with # is ignored                 #
+# FORMATTING IS VERY IMPORTANT FOLLOW IT CLOSELY      #
+# filter_* comes from user messages                   #
+# response_* is what the bot replies with in response #
+# You can add as many more key words you wish,        # 
+# however make sure you continue the counting i.e.    #
+# filter_1 response_1, filter_2 response_2 etc.       #
+#######################################################
+
+filter_1=Meanie
+response_filter_1=The message was removed because it has 'a bad word' in it.
+
+filter_2=Mean
+response_filter_2=The message was removed because it has 'a bad word' in it.
+
+filter_3=Bad Words
+response_filter_3=The message was removed because it has 'a bad word' in it.
+
+filter_4=Moist
+response_filter_4=The message was removed because it has 'a bad word' in it.
+
+filter_5=Rude
+response_filter_5=The message was removed because it has 'a bad word' in it.
